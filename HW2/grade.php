@@ -49,20 +49,26 @@
         echo "Homework: <i>$hw</i> <br />";
         echo "Midterm: <i>$midterm</i> <br />";
         echo "Final: <i>$final</i> <br />";
-        $total = $hw + $midterm + $final;
 
+        $total = $hw + $midterm + $final;
         echo "Total Score: $total <br>";
-        if ($total >= 80) {
-            echo "Result Grade: A<br>";
-        } elseif ($total >= 70) {
-            echo "Result Grade: B<br>";
-        } elseif ($total >= 60) {
-            echo "Result Grade: C<br>";
-        } elseif ($total >= 50) {
-            echo "Result Grade: D<br>";
-        } else {
-            echo "Result Grade: F<br>";
-        }
+
+        if ($total >= 80)
+            echo "Result Grade : A<br>";
+        elseif ($total >= 75)
+            echo "Result Grade : B+<br>";
+        elseif ($total >= 70)
+            echo "Result Grade : B<br>";
+        elseif ($total >= 65)
+            echo "Result Grade : C+<br>";
+        elseif ($total >= 60)
+            echo "Result Grade : C<br>";
+        elseif ($total >= 55)
+            echo "Result Grade : D+<br>";
+        elseif ($total >= 50)
+            echo "Result Grade : D<br>";
+        else
+            echo "Result Grade : F<br>";
 
         echo "<br><a href=''> <big>Back</big></a>";
     }
