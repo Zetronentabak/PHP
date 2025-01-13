@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <form method="post" action="lab6-12cal.php">
+    <form method="post">
         <table border="1" align="center" width="400">
             <tr>
                 <td colspan="2" align="center">
@@ -30,7 +30,7 @@
 
 
     <?php
-    if (isset($_GET['submit'])) {
+    if (isset($_POST['submit'])) {
         $row = $_POST['row'];
         $column = $_POST['column'];
         $rowMax = intval($row);
@@ -49,7 +49,6 @@
             echo "</tr>";
         }
         echo "</table>";
-        echo "<a href='Lab6-12AllinOne.php'> <big>Back </big></a>";
     }
     ?>
 </body>
