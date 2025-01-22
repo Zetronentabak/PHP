@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #DDFCDD;
     color: black;
@@ -19,4 +20,27 @@ body {
     font-style: normal;
     font-family: Cordia New;
     font-size: 14pt;
+=======
+body {
+    background: #DDFCDD;
+    color: black;
+    }
+    h1 {
+    text-align: left;
+    font-size: 18pt;
+    font-style: normal;
+    color: blue;
+    }
+    h3 {
+    text-align: left;
+    font-size: 14pt;
+    font-style: italic;
+    color: magenta;
+    }
+    p {
+    text-align: center;
+    font-style: normal;
+    font-family: Cordia New;
+    font-size: 14pt;
+>>>>>>> 75ef5b1dd3557e2814bce46b7e36b9c255df8e31
     }
